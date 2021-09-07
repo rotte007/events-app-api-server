@@ -19,7 +19,7 @@ pipeline {
             steps {
                 echo 'Retrieving source from github' 
                 git branch: 'main',
-                    url: 'https://https://github.com/rotte007/events-app-api-server.git'
+                    url: 'https://github.com/rotte007/events-app-api-server.git'
                 echo 'Did we get the source?' 
                 sh 'ls -a'
             }
